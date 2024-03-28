@@ -4,10 +4,16 @@
   "description": "This is CLI ATM Project",
   "main": "index.js",
   "type": "module",
-  "bin" : "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Syed Abdul Sami",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
 }
