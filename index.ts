@@ -25,4 +25,6 @@ if (received_pcode.answer===pCode) {
             choices:["Withdraw", "Balance"]
         }
     )
+} else{
+    console.log(`Incorrect Password, Please try again.`)
 }
