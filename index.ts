@@ -11,7 +11,7 @@ let received_pwsCode = await inquirer.prompt(
 );
 if (received_pwsCode.answer===pCode) {
     console.log(`Your Pin Code in Correct`);
-    console.log(`Your current Balance : ${currentBalance}`);
+    console.log(`Welcome in ATM Machine CLI Program.`);
     let operation = await inquirer.prompt(
         {
             name:"selectedOperator",

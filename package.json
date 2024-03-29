@@ -1,6 +1,6 @@
 {
   "name": "s24mi_atm_project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is CLI ATM Project",
   "main": "index.js",
   "type": "module",
