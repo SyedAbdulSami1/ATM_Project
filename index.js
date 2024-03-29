@@ -33,11 +33,16 @@ if (received_pwsCode.answer === pCode) {
                 message: "Enter your Amount:",
                 type: "number",
             });
-            console.log(`Now your balance is: ${currentBalance - typeAmount.amountByType}`);
+            let inputSelectedAmount = typeAmount.amountByType;
+            if (inputSelectedAmount <= currentBalance) {
+                console.log(`Now your balance is: ${currentBalance - typeAmount.amountByType}`);
+            }
+            else {
+                console.log("Insufficient Balance.");
+            }
+            ;
         }
-        else {
-            console.log("Insufficient Balance.");
-        }
+        else { }
     }
 }
 else {
